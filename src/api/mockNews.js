@@ -5,6 +5,7 @@ export const mockNews = [
 		published: new Date().toISOString(),
 		author: "OpenAI Reporter",
 		image: "https://picsum.photos/seed/news1/800/400",
+		category: "react",
 	},
 	{
 		id: "2",
@@ -12,6 +13,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(),
 		author: "Tech Guru",
 		image: "https://picsum.photos/seed/news2/800/400",
+		category: "frontend",
 	},
 	{
 		id: "3",
@@ -19,6 +21,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
 		author: "AI Times",
 		image: "https://picsum.photos/seed/news3/800/400",
+		category: "ai",
 	},
 	{
 		id: "4",
@@ -26,6 +29,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 8).toISOString(),
 		author: "JS Daily",
 		image: "https://picsum.photos/seed/news4/800/400",
+		category: "javascript",
 	},
 	{
 		id: "5",
@@ -33,6 +37,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 12).toISOString(),
 		author: "Design Weekly",
 		image: "https://picsum.photos/seed/news5/800/400",
+		category: "css",
 	},
 	{
 		id: "6",
@@ -40,6 +45,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 16).toISOString(),
 		author: "Code World",
 		image: "https://picsum.photos/seed/news6/800/400",
+		category: "typescript",
 	},
 	{
 		id: "7",
@@ -47,6 +53,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 20).toISOString(),
 		author: "DevTech",
 		image: "https://picsum.photos/seed/news7/800/400",
+		category: "webassembly",
 	},
 	{
 		id: "8",
@@ -54,6 +61,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(),
 		author: "Editor Tips",
 		image: "https://picsum.photos/seed/news8/800/400",
+		category: "tools",
 	},
 	{
 		id: "9",
@@ -61,6 +69,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 30).toISOString(),
 		author: "UX Masters",
 		image: "https://picsum.photos/seed/news9/800/400",
+		category: "design",
 	},
 	{
 		id: "10",
@@ -68,6 +77,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 36).toISOString(),
 		author: "React Weekly",
 		image: "https://picsum.photos/seed/news10/800/400",
+		category: "react",
 	},
 	{
 		id: "11",
@@ -75,6 +85,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 40).toISOString(),
 		author: "Frontend Lab",
 		image: "https://picsum.photos/seed/news11/800/400",
+		category: "svelte",
 	},
 	{
 		id: "12",
@@ -82,6 +93,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 45).toISOString(),
 		author: "Design Journal",
 		image: "https://picsum.photos/seed/news12/800/400",
+		category: "frontend",
 	},
 	{
 		id: "13",
@@ -89,6 +101,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 50).toISOString(),
 		author: "CyberSafe",
 		image: "https://picsum.photos/seed/news13/800/400",
+		category: "security",
 	},
 	{
 		id: "14",
@@ -96,6 +109,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 55).toISOString(),
 		author: "React Pros",
 		image: "https://picsum.photos/seed/news14/800/400",
+		category: "react",
 	},
 	{
 		id: "15",
@@ -103,6 +117,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 60).toISOString(),
 		author: "Cloud Devs",
 		image: "https://picsum.photos/seed/news15/800/400",
+		category: "cloud",
 	},
 	{
 		id: "16",
@@ -110,6 +125,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 65).toISOString(),
 		author: "UX Guide",
 		image: "https://picsum.photos/seed/news16/800/400",
+		category: "ux",
 	},
 	{
 		id: "17",
@@ -117,6 +133,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 70).toISOString(),
 		author: "Dev Journal",
 		image: "https://picsum.photos/seed/news17/800/400",
+		category: "rust",
 	},
 	{
 		id: "18",
@@ -124,6 +141,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 75).toISOString(),
 		author: "CSS Today",
 		image: "https://picsum.photos/seed/news18/800/400",
+		category: "css",
 	},
 	{
 		id: "19",
@@ -131,6 +149,7 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 80).toISOString(),
 		author: "BugSquashers",
 		image: "https://picsum.photos/seed/news19/800/400",
+		category: "react",
 	},
 	{
 		id: "20",
@@ -138,5 +157,6 @@ export const mockNews = [
 		published: new Date(Date.now() - 1000 * 60 * 60 * 85).toISOString(),
 		author: "Tech World",
 		image: "https://picsum.photos/seed/news20/800/400",
+		category: "cloud",
 	},
 ];
