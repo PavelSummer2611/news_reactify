@@ -6,6 +6,7 @@ export const mockNews = [
 		author: "OpenAI Reporter",
 		image: "https://picsum.photos/seed/news1/800/400",
 		category: "react",
+		keywords: ["react", "javascript", "frontend", "web development"],
 	},
 	{
 		id: "2",
@@ -14,6 +15,7 @@ export const mockNews = [
 		author: "Tech Guru",
 		image: "https://picsum.photos/seed/news2/800/400",
 		category: "frontend",
+		keywords: ["frontend", "web", "css", "javascript", "ui"],
 	},
 	{
 		id: "3",
@@ -22,6 +24,7 @@ export const mockNews = [
 		author: "AI Times",
 		image: "https://picsum.photos/seed/news3/800/400",
 		category: "ai",
+		keywords: ["ai", "machine learning", "web development", "automation"],
 	},
 	{
 		id: "4",
@@ -30,6 +33,7 @@ export const mockNews = [
 		author: "JS Daily",
 		image: "https://picsum.photos/seed/news4/800/400",
 		category: "javascript",
+		keywords: ["javascript", "es2025", "frontend", "programming"],
 	},
 	{
 		id: "5",
@@ -38,6 +42,7 @@ export const mockNews = [
 		author: "Design Weekly",
 		image: "https://picsum.photos/seed/news5/800/400",
 		category: "css",
+		keywords: ["css", "design", "frontend", "stylesheets"],
 	},
 	{
 		id: "6",
@@ -46,6 +51,7 @@ export const mockNews = [
 		author: "Code World",
 		image: "https://picsum.photos/seed/news6/800/400",
 		category: "typescript",
+		keywords: ["typescript", "javascript", "static typing", "frontend"],
 	},
 	{
 		id: "7",
@@ -54,6 +60,7 @@ export const mockNews = [
 		author: "DevTech",
 		image: "https://picsum.photos/seed/news7/800/400",
 		category: "webassembly",
+		keywords: ["webassembly", "wasm", "performance", "web"],
 	},
 	{
 		id: "8",
@@ -62,6 +69,7 @@ export const mockNews = [
 		author: "Editor Tips",
 		image: "https://picsum.photos/seed/news8/800/400",
 		category: "tools",
+		keywords: ["vscode", "extensions", "developer tools", "productivity"],
 	},
 	{
 		id: "9",
@@ -70,6 +78,7 @@ export const mockNews = [
 		author: "UX Masters",
 		image: "https://picsum.photos/seed/news9/800/400",
 		category: "design",
+		keywords: ["design", "ui", "ux", "systems", "branding"],
 	},
 	{
 		id: "10",
@@ -78,6 +87,7 @@ export const mockNews = [
 		author: "React Weekly",
 		image: "https://picsum.photos/seed/news10/800/400",
 		category: "react",
+		keywords: ["next.js", "remix", "react", "frameworks", "ssr"],
 	},
 	{
 		id: "11",
@@ -86,6 +96,7 @@ export const mockNews = [
 		author: "Frontend Lab",
 		image: "https://picsum.photos/seed/news11/800/400",
 		category: "svelte",
+		keywords: ["svelte", "frontend", "javascript", "performance"],
 	},
 	{
 		id: "12",
@@ -94,6 +105,7 @@ export const mockNews = [
 		author: "Design Journal",
 		image: "https://picsum.photos/seed/news12/800/400",
 		category: "frontend",
+		keywords: ["ui", "frameworks", "frontend", "design", "javascript"],
 	},
 	{
 		id: "13",
@@ -102,6 +114,7 @@ export const mockNews = [
 		author: "CyberSafe",
 		image: "https://picsum.photos/seed/news13/800/400",
 		category: "security",
+		keywords: ["security", "web", "best practices", "hacking prevention"],
 	},
 	{
 		id: "14",
@@ -110,6 +123,7 @@ export const mockNews = [
 		author: "React Pros",
 		image: "https://picsum.photos/seed/news14/800/400",
 		category: "react",
+		keywords: ["react", "performance", "optimization", "frontend"],
 	},
 	{
 		id: "15",
@@ -118,6 +132,7 @@ export const mockNews = [
 		author: "Cloud Devs",
 		image: "https://picsum.photos/seed/news15/800/400",
 		category: "cloud",
+		keywords: ["serverless", "cloud", "backend", "functions"],
 	},
 	{
 		id: "16",
@@ -126,6 +141,7 @@ export const mockNews = [
 		author: "UX Guide",
 		image: "https://picsum.photos/seed/news16/800/400",
 		category: "ux",
+		keywords: ["ux", "dark mode", "design", "ui"],
 	},
 	{
 		id: "17",
@@ -134,6 +150,7 @@ export const mockNews = [
 		author: "Dev Journal",
 		image: "https://picsum.photos/seed/news17/800/400",
 		category: "rust",
+		keywords: ["rust", "systems programming", "javascript", "developer"],
 	},
 	{
 		id: "18",
@@ -142,6 +159,7 @@ export const mockNews = [
 		author: "CSS Today",
 		image: "https://picsum.photos/seed/news18/800/400",
 		category: "css",
+		keywords: ["tailwind", "css", "design", "utility first"],
 	},
 	{
 		id: "19",
@@ -150,6 +168,7 @@ export const mockNews = [
 		author: "BugSquashers",
 		image: "https://picsum.photos/seed/news19/800/400",
 		category: "react",
+		keywords: ["react", "bugs", "common mistakes", "frontend"],
 	},
 	{
 		id: "20",
@@ -158,5 +177,6 @@ export const mockNews = [
 		author: "Tech World",
 		image: "https://picsum.photos/seed/news20/800/400",
 		category: "cloud",
+		keywords: ["edge computing", "cloud", "infrastructure", "performance"],
 	},
 ];
