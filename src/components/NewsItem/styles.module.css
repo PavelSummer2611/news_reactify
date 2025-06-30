@@ -20,6 +20,6 @@
 	height: 64px;
 	background-color: #f2f4f5;
 	background-position: center;
-	block-size: cover;
+	background-size: cover;
 	flex-shrink: 0;
 }
