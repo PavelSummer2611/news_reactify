@@ -38,18 +38,23 @@
 
 //-----------------------------------
 
-import { mockNews } from "./mockNews";
+import type { CategoriesApiResponse, NewsApiResponse, ParamsType } from "../interfaces/index.ts";
+import { mockNews } from "./mockNews.ts";
 
-export const getNews = async ({
-	page_number = 1,
-	page_size = 10,
-	category,
-	keywords,
-}) => {
+export const getNews = async (params?: ParamsType): Promise<NewsApiResponse> => {
 	try {
 		// Симуляция задержки загрузки
 		await new Promise((res) => setTimeout(res, 500));
 
+		const {
+			category,
+			keywords,
+			page_number = 1,
+			page_size = 10,
+		} = params || {};
+
+
+		
 		// Фильтрация по категории (если указана и не "All")
 		let filtered =
 			category && category !== "All"
@@ -75,10 +80,11 @@ export const getNews = async ({
 		};
 	} catch (error) {
 		console.log(error);
+		return {news: [], page: 1, status: 'error'}
 	}
 };
 
-export const getLatestNews = async () => {
+export const getLatestNews = async (): Promise<NewsApiResponse> => {
 	try {
 		// Симуляция сетевой задержки
 		await new Promise((res) => setTimeout(res, 500));
@@ -96,10 +102,11 @@ export const getLatestNews = async () => {
 		};
 	} catch (error) {
 		console.log("Ошибка в getLatestNews:", error);
+		return {news: [], page: 1, status: 'error'}
 	}
 };
 
-export const getCategories = async () => {
+export const getCategories = async (): Promise<CategoriesApiResponse> => {
 	try {
 		await new Promise((res) => setTimeout(res, 300));
 		return {
@@ -115,5 +122,6 @@ export const getCategories = async () => {
 		};
 	} catch (error) {
 		console.log(error);
+		return {categories: [], description: '', status: 'error'}
 	}
 };
