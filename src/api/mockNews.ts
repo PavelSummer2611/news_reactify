@@ -1,4 +1,14 @@
-export const mockNews = [
+export interface NewsItem {
+	id: string;
+	title: string;
+	image: string;
+	category: string;
+	published: string; // ISO-строка или дата в нужном тебе формате
+	author: string;
+	keywords: string[];
+ }
+
+export const mockNews: NewsItem[] = [
 	{
 		id: "1",
 		title: "Breaking News: React 19 Released!",

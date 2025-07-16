@@ -1,9 +1,13 @@
-import React from "react";
 import styles from "./styles.module.css";
 import { formatTimeAgo } from "../../helpers/formatTimeAgo";
 import Image from "../Image/Image";
+import type { INews } from "../../interfaces";
 
-const NewsBanner = ({ item }) => {
+interface Props {
+	item: INews;
+}
+
+const NewsBanner = ({ item }: Props) => {
 	return (
 		<header className={styles.banner}>
 			<Image image={item.image} />
