@@ -67,5 +67,6 @@ export type CategoriesType =
       handlePreviousPage: () => void;
       handlePageClick: (page: number) => void;
       currentPage: number;
+      
    }
    
